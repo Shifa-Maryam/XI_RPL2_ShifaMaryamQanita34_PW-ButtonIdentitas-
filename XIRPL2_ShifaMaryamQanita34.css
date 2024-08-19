@@ -1,0 +1,40 @@
+h1{
+   color: orchid;
+   text-align: center;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+tr:nth-child(1){
+    color: black;
+    background-color: thistle;
+    text-align: center;
+}
+
+tr{
+    color: black;
+    background-color: lavender;
+}
+
+table.hidden{
+    display: none;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+button{
+    width: 4cm;
+    height: 1cm;
+    color: black;
+    background-color: rgb(213, 159, 241);
+    border-radius: 0.5cm;
+    border-color: rgba(240, 248, 255, 0.176);
+    box-shadow: 1cm;
+    margin-top: 150px;
+}
